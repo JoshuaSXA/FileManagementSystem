@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FileManagementSystem</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body style="background-color: #424242;">
+
+<div class="body-container" style="text-align: center;">
+
+    <div class="tab-bar" style="position: absolute; top: 10px; right: 20px;">
+        <div class="tab-1"><a href="#">Simulator</a></div>
+        <div class="tab-2"><a href="readme.html">Readme</a></div>
+    </div>
+
+    <div class="search-line-container">
+        <div class="search-line-header">
+            <span>&lt;/&gt;&nbsp;Search Line</span>
+            <img class="folder-btn" src="img/folder.png"/>
+        </div>
+
+        <div class="search-line-input-container">
+            <div style="display: inline-block; font-size: 20px; height: 30px; line-height: 30px;">user$&nbsp;</div>
+            <input class="search-line-input">
+            <div style="display: inline-block;">
+                <img class="search-btn" src="img/search.png" style="width: 20px; height: 20px; margin-left: 0px;"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="file-display-content">
+        <div class="touch-bar">
+            <img class="return-btn" src="img/return.png"/>
+            <button class="save-btn">Save</button>
+            <button class="format-btn">Format</button>
+            <button class="new-file-btn">New File</button>
+            <button class="new-folder-btn">New Folder</button>
+        </div>
+        <div class="show-content" id="file-con"></div>
+        <textarea class="txt-content" maxlength="1024"></textarea>
+    </div>
+
+    <div class="copyright">Codes hosted at <a href="https://github.com/JoshuaSXA/FileManagementSystem">GitHub</a>, by Joshua Shen</div>
+</div>
+
+
+<div class="block-container">
+    <div class="filename-input">
+        <div class="input-header">
+            <img class="cancel-btn" src="img/return.png"/>
+            <div class="input-header-text">Filename</div>
+        </div>
+
+        <div style="width: 100%; height: 45px; text-align: center;">
+            <input class="filename-text" maxlength="128" placeholder="Please input the filename">
+        </div>
+        <div class="alert-container"></div>
+        <div style="width: 100%; height: 30px;">
+            <button class="clear-btn">Clear</button>
+            <button class="confirm-btn" style="margin-left: 12.5px;">Confirm</button>
+        </div>
+    </div>
+</div>
+
+<div class="save-modal-container" style="display: none;">
+    <img class="save-success-icon" src="img/success.png"/>
+    <div class="save-success-text">Save Successfully !</div>
+</div>
+
+<div id="menu" style="display: none;">
+    <div class="menu" id="m-1">Open</div>
+    <div class="menu" id="m-2">Rename</div>
+    <div class="menu" id="m-3">Delete</div>
+    <div class="menu" id="m-4">Cut</div>
+    <div class="menu" id="m-5">Paste</div>
+</div>
+
+<div class="rename-container" id="re-con">
+    <input class="rename-input" maxlength="128" placeholder="Input new name">
+    <div class="rename-alert"></div>
+    <button class="rename-confirm-btn">Confirm</button>
+</div>
+
+</body>
+</html>

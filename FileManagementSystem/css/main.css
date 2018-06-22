@@ -1,0 +1,330 @@
+html, body, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Sans Serif";
+}
+
+.tab-1{
+    box-sizing: unset;
+    border-bottom: #ffffff solid 2px;
+}
+
+.file-display-content{
+    width: 800px;
+    height: 500px;
+    padding: 0px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.search-line-container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 110px;
+    background-color: #8a8a8a;
+    border-radius: 5px;
+
+}
+
+.search-line-header{
+    text-align: left;
+    vertical-align: center;
+    width: 100%;
+    background: #8a8a8a;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: unset;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.search-line-header span{
+    color: #ffffff;
+    line-height: 22px;
+    height: 22px;
+}
+
+.folder-btn{
+    height: 18px;
+    width: 16px;
+    margin-top: 0px;
+    margin-left: 650px;
+}
+
+.touch-bar{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #8a8a8a;
+    vertical-align: center;
+    height: 36px;
+}
+
+.return-btn{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    padding-top: 3px;
+    margin-top: 4px;
+    padding-left: 0px;
+    margin-right: 429px;
+}
+
+.touch-bar button{
+    height: 24px;
+    font-size: 16px;
+    vertical-align: top;
+    margin: 0 2px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    border: unset;
+    border: 2px #ffffff solid;
+    background-color: #8a8a8a;
+    color: #ffffff;
+}
+
+.show-content{
+    width: 100%;
+    height: 464px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+    overflow: scroll;
+}
+
+.search-line-input-container{
+    width: 800px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ffffff;
+}
+
+.search-line-input{
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    border: unset;
+    font-size: 20px;
+    line-height: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+.copyright{
+    margin: 0 auto;
+    font-size: 18px;
+    color: #D4D4D4;
+    margin-bottom: 15px;
+    margin-top: 120px;
+}
+
+.tab-bar div{
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    margin:5px;
+    color: #ffffff;
+    height: 30px;
+    line-height: 30px;
+}
+
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.block-container{
+    opacity: 100%;
+    position:absolute;
+    z-index: 100;
+    width: 1000px;
+    height: 600px;
+    top: 100px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+}
+
+.filename-input{
+    opacity: 1;
+    background-color: #F2F2F2;
+    position: absolute;
+    width: 200px;
+    height: 124px;
+    margin: 0 auto;
+    left:0px;
+    right:0px;
+    top:200px;
+    border-radius: 5px;
+    border: 1px solid #F0F0F0;
+    z-index: 110;
+}
+
+.input-header{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 25px;
+    background-color: #8a8a8a;
+    vertical-align:top;
+}
+
+.cancel-btn{
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+
+.input-header-text{
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-left: 40px;
+}
+
+.filename-text{
+    border: unset;
+    box-sizing: border-box;
+    border: 1px solid #bfbfbf;
+    margin: 5px 0px;
+    padding: 3px;
+    height: 30px;
+    width: 180px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.clear-btn, .confirm-btn{
+    width: 75px;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    border: 2px solid #8a8a8a;
+    color: #8a8a8a;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 3px 11px;
+}
+
+.alert-container{
+    width: 100%;
+    height: 14px;
+    padding-left: 12px;
+    font-size: 10px;
+    color: red;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.txt-content{
+    position: absolute;
+    box-sizing: border-box;
+    width: 780px;
+    height: 444px;
+    border:unset;
+    font-size: 16px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top:230px;
+}
+
+.save-modal-container{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    margin: 0 auto;
+    left:0px;
+    right:0px;
+    background-color: #8a8a8a;
+    opacity: 0.7;
+    top: 280px;
+    z-index: 200;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.save-success-icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.save-success-text{
+    color: white;
+    font-size: 18px;
+}
+
+#menu{
+    opacity: 1;
+    background-color: white;
+    width: 80px; /*设置为0 隐藏自定义菜单*/
+    height: 150px;
+    overflow: hidden; /*隐藏溢出的元素*/
+    box-shadow: 0 1px 1px #888,1px 0 1px #ccc;
+    position: absolute; /*自定义菜单相对与body元素进行定位*/
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+}
+
+.menu{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.rename-container{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    left:0px;
+    right:0px;
+    top:320px;
+}
+
+.rename-input{
+    border: none;
+    border: 1px solid #bfbfbf;
+    padding: 3px;
+    box-sizing: border-box;
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 0px 15px;
+    margin-top: 10px;
+}
+
+.rename-alert{
+    width: 120px;
+    height: 20px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: red;
+    text-align: center;
+}
+
+.rename-confirm-btn{
+    box-sizing: border-box;
+    width: 100px;
+    height: 26px;
+    margin: 2px 25px;
+    border-radius: 5px;
+}

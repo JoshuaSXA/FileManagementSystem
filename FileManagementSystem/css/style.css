@@ -1,0 +1,73 @@
+html, body, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Sans Serif";
+}
+
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.tab-1, .tab-2{
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    margin:5px;
+    color: #ffffff;
+}
+
+.tab-2{
+    box-sizing: unset;
+    border-bottom: #ffffff solid 2px;
+}
+
+.readme-container{
+    width: 900px;
+    height: 700px;
+    padding: 0px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.readme-con-header{
+    width: 900px;
+    height: 50px;
+    background-color: #8a8a8a;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.readme-content{
+    width: 900px;
+    height: 650px;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: scroll;
+}
+
+h1{
+    text-align: left;
+}
+
+p{
+    text-indent:2em;
+    padding-left: 3px;
+}
+
+img{
+    margin: 5px 90px;
+    margin-top: 0px;
+}
